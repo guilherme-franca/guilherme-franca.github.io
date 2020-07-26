@@ -136,8 +136,17 @@ a {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 img {
   max-height: 300px;
   border-radius: 10px;
+}
+
+#detail {
+  margin: 6px;
 }
