@@ -140,6 +140,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 12px;
 }
 
 img {
@@ -147,6 +148,30 @@ img {
   border-radius: 10px;
 }
 
-#detail {
-  margin: 6px;
+h3 { margin: 10px 0; }
+
+ul {
+  width: 100%;
+  max-width: 200px;
+}
+
+ul li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+
+ul li a {
+  display: block;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 100px;
+  transition: all .5s ease-in;
+  text-align: center;
+  padding: 10px 8px;
+  color: #000;
+}
+
+ul li a:hover {
+  background: #ccc;
 }
