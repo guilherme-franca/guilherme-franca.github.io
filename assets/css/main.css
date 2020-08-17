@@ -143,16 +143,24 @@ a {
   gap: 12px;
 }
 
-img {
+img#picture {
   max-height: 300px;
   border-radius: 10px;
+}
+
+#description {
+  margin: 10px 0;
+}
+
+#description p {
+  line-height: 2em;
 }
 
 h3 { margin: 10px 0; }
 
 ul {
   width: 100%;
-  max-width: 200px;
+  max-width: 195px;
 }
 
 ul li {
@@ -160,15 +168,14 @@ ul li {
   margin-bottom: 5px;
 }
 
-
 ul li a {
   display: block;
   border: 1px solid #ccc;
   width: 100%;
   max-width: 100px;
-  transition: all .5s ease-in;
+  transition: all .3s ease-in;
   text-align: center;
-  padding: 10px 8px;
+  padding: 8px 10px;
   color: #000;
 }
 
